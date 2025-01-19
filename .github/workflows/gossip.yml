@@ -7,7 +7,7 @@ on:
         description: 'like twitter.com '
         type: string
         required: False
-        default: ''
+        default: 'twitter.com,telegram.com'
       count:
         description: 'count limit'
         type: string
@@ -17,7 +17,7 @@ on:
         description: 'keywords list, use comma as separator'
         type: string
         required: False
-        default: "saas starter,shipany"
+        default: "uniswapbot,"
       action:
         description: 'Choose action: "commit" to commit to repo, "upload" to upload to release'
         type: string
